@@ -11,7 +11,7 @@ import { useInView } from "react-intersection-observer";
 //Animation
 import { motion } from "framer-motion";
 import { smoothIn } from "@/animate";
-const about = () => {
+const About = () => {
   const { ref, inView } = useInView({
     threshold: 0.5,
   });
@@ -78,4 +78,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

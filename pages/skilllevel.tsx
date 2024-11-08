@@ -9,7 +9,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 import { smoothIn } from "@/animate";
 
-const skilllevel = () => {
+const Skilllevel = () => {
   return (
     <>
     <Head>
@@ -68,4 +68,4 @@ const skilllevel = () => {
   )
 }
 
-export default skilllevel
+export default Skilllevel

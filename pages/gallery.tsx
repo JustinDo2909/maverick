@@ -33,7 +33,8 @@ const Gallery = () => {
            transition={{duration: 1 , ease: 'easeInOut'}}
           className="container grid lg:grid-cols-2 gap-8 py-8">
             {gallery.map((gallery) => (
-              <div>
+              <div 
+              key={gallery.id} >
                 <div
                   key={gallery.id}
                   className="relative overflow-hidden rounded-xl group"

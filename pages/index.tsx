@@ -1,4 +1,3 @@
-import localFont from "next/font/local";
 import Head from "next/head";
 import Wrapper from "@/components/Wrapper";
 import Car from "@/components/Car";
